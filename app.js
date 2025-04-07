@@ -6,6 +6,10 @@ app.get('/', (req, res) => {
   res.send('🚀 Hello from your DevOps-powered Node.js app!');
 });
 
+// Add your console.log('Hello World!') here
+console.log('Hello World!');
+
 app.listen(port, () => {
   console.log(`App listening at http://localhost:${port}`);
 });
+
